@@ -1,8 +1,12 @@
 // import BooksList class
 import BooksList from './modules/bookslistClass.js';
+
+// Import date and time from luxon.js
+import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 // Create BooksList instantiation and call the Magic Method
 const booksList = new BooksList();
 booksList.Magic();
+document.querySelector('.date').innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 
 // Page content display by clicking on the corresponding navbar menu item
 const navbarList = document.getElementById('navbar');

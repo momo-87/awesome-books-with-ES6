@@ -35,6 +35,8 @@ header {
 header .date {
   align-self: self-end;
   margin-right: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .navbar {
