@@ -2,7 +2,7 @@
 import BooksList from './modules/bookslistClass.js';
 
 // Import date and time from luxon.js
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
+import { DateTime } from './modules/luxon.js';
 // Create BooksList instantiation and call the Magic Method
 const booksList = new BooksList();
 booksList.Magic();
