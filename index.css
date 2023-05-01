@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+header .date {
+  align-self: self-end;
+  margin-right: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.navbar {
+  /* position: relative; */
+  border: 2px solid #00000075;
+  align-items: center;
+  height: 30px;
+  justify-content: space-between;
+  padding: 0 2%;
+  margin-bottom: 0.3rem;
+}
+
+.logoBox a {
+  color: black;
+  font-weight: bold;
+}
+
+.logoBox .logo:hover {
+  color: blueviolet;
+}
+
+.navbarList {
+  gap: 5px;
+}
+
+.navbarList li:nth-child(1),
+.navbarList li:nth-child(2) {
+  border-right: 2px solid gray;
+  padding-right: 5px;
+}
+
+.navbarList li a {
+  color: gray;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.5s ease;
+}
+
+.navbarList li a:hover {
+  font-size: 1rem;
+  color: blueviolet;
+}
+
+.view-books {
+  border: 2px solid #00000075;
+  padding-bottom: 5px;
+}
+
+.headline {
+  align-self: center;
+  margin-top: 100px;
+}
+
+.book-info {
+  width: 100%;
+  height: 40px;
+  justify-content: flex-start;
+  margin-top: 5px;
+  gap: 10%;
+  padding: 0 2%;
+  align-items: center;
+}
+
+.book-info p {
+  height: 20px;
+  width: 85%;
+  margin-top: 0;
+  padding: 7px 0;
+}
+
+.view-books h1 {
+  display: flex;
+  align-self: center;
+}
+
+.book-info:nth-child(odd) {
+  background-color: #dddd;
+}
+
+.book-info:nth-child(even) {
+  background-color: white;
+}
+
+.remove-book,
+.add-book {
+  box-shadow: 0.15rem 0.15rem black;
+}
+
+.form {
+  align-items: center;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.form input {
+  margin: 0;
+  width: 150%;
+  height: 2.5rem;
+  padding: 5px;
+}
+
+.add-book {
+  margin-left: 125%;
+}
+
+#empty-title,
+#empty-author {
+  margin-bottom: 5px;
+  font-size: small;
+  color: red;
+}
+
+.contact {
+  align-items: center;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.contact .info li {
+  list-style-type: disc;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0.4%;
+  right: 0.2%;
+  align-items: center;
+  border: 2px solid #00000075;
+  width: 99.1%;
+  background-color: white;
+}
