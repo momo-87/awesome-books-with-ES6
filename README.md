@@ -6,6 +6,9 @@
   
   <h2><b>Awesome Books project with ES6</b></h2>
 </div>
+<div align="center">
+  <img src="./dist/card3.png" alt="photo" alt ="screenshot"/>
+</div>
 
 # 📗 Table of Contents
 
